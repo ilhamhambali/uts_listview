@@ -18,10 +18,7 @@ class DashboardPage extends StatelessWidget {
         itemBuilder: (context, index) {
           return ListTile(
             leading: Icon(Icons.dashboard),
-            title: Text(items[index]),
-            onTap: () {
-              // Add functionality here for item tap if needed
-            },
+            title: Text(items[index])
           );
         },
       ),
